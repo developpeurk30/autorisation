@@ -1,0 +1,26 @@
+{
+    "name": "chimak/autorisation",
+    "description": "Gestion de l'authentification des utilisateurs et de la gestion de leurs droits",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michel KOUA",
+            "email": "developpeurk30@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Chimak\\Autorisation\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chimak\\Autorisation\\AutorisationServiceProvider",
+                "Chimak\\Autorisation\\AutorisationAuthServiceProvider"
+            ]
+        }
+    }
+}
