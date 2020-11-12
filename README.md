@@ -1,5 +1,5 @@
 # Package Autorisation
- ![](https://img.shields.io/badge/BUILT%20WITH-LARAVEL-red)  
+ ![](https://img.shields.io/badge/BUILT%20WITH-LARAVEL%208-red)  ![](https://img.shields.io/badge/VERSION-1.0.0-green)
  
  Ce paquet vous permet d'administrer votre application et donc de gérer :  
 
