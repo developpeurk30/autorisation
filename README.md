@@ -135,4 +135,5 @@ Les décommenter de sorte à avoir :
     }
 ```
 
+8 - Commenter la route / dans votre fichier routes/web.php et connectez-vous avec l'utilisateur **admin/admin**. Vous pourrez changer votre mot de passse sous le menu **Mon Profil**.
 
