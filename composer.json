@@ -9,7 +9,10 @@
             "email": "developpeurk30@gmail.com"
         }
     ],
-    "require": {},
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework" : "~8.0"
+    },
     "autoload": {
         "psr-4": {
             "Chimak\\Autorisation\\" : "src/"
