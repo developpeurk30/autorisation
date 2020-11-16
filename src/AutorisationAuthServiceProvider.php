@@ -26,12 +26,13 @@ class AutorisationAuthServiceProvider extends ServiceProvider{
     public function boot(GateContract $gate)
     {
         $this->registerPolicies($gate);
-        
+        /*
         foreach ($this->getPages() as $page){
             $gate->define($page->page_code, function(User $user) use($page){
                 return $user->hasProfile($page->profilesActifs);
             });
         }
+        */
 
     }
 
